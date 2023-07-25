@@ -17,20 +17,19 @@
 
 
 nav {
-    background-color: #74c0fc;;
+    background-color: #74c0fc;
     height: 50px;
     width: 100%;
     position: absolute;
     top: 0;
     left: 0;
     margin-top: 2%;
-    padding: 20px 60px ;
+    padding: 20px 0px ;
    
   }
  
   nav ul {
     list-style-type: none;
-    /* margin: 0; */
     padding: 0;
   }
   
@@ -38,7 +37,7 @@ nav {
     float: left;
     padding: 10px 2px;
     font-size: 18px;
-    margin-left: 20%;
+    margin-left: 15%;
   }
   
   nav a {
@@ -85,22 +84,26 @@ nav {
   
   #Breaking{
     /* width: 100rem; */
-    height: 70%;
+    height: 60%;
   }
   #analysis{
-    height: 70%;
+    height: 60%;
   }
+  /* #analysis h1{
+    font-size: 20px;
+  } */
   #market{
-    height: 73%;
-    
+    height: 60%;
   }
 
   .market{
     display: grid;
     grid-template-columns: repeat(3,1fr);
+    padding: 20px;
   }
   .market img{
-    width:80%;
+    width:70%;
+    height: 40%;
   }
   .services{
     text-align: center;
@@ -276,3 +279,20 @@ display: flex;
    font-size: 18px;
 
 }
+
+
+.footer-writtings {
+  background-color: #74c0fc;
+  height: 70px;
+  width: 100%;
+  /* position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 2%;
+  padding: 20px 0px ; */
+text-align: center;
+ margin-top: 2%;
+ padding-top: 50px;
+ font-size: 10px;
+}
+
